@@ -1,3 +1,9 @@
+# revision 21392
+# category Package
+# catalog-ctan /macros/latex/contrib/mylatexformat
+# catalog-date 2011-02-13 01:21:30 +0100
+# catalog-license lppl1.3
+# catalog-version 3.4
 Name:		texlive-mylatexformat
 Version:	3.4
 Release:	1
@@ -48,6 +54,7 @@ limitations and problems of that package.
 %doc %{_texmfdistdir}/source/latex/mylatexformat/mylatexformat.drv
 %doc %{_texmfdistdir}/source/latex/mylatexformat/mylatexformat.dtx
 %doc %{_texmfdistdir}/source/latex/mylatexformat/mylatexformat.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ limitations and problems of that package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
