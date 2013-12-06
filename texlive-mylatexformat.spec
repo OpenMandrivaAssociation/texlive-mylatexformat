@@ -6,7 +6,7 @@
 # catalog-version 3.4
 Name:		texlive-mylatexformat
 Version:	3.4
-Release:	4
+Release:	5
 Summary:	Build a format based on the preamble of a LaTeX file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mylatexformat
