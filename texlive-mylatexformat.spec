@@ -3,7 +3,7 @@ Version:	21392
 Release:	2
 Summary:	Build a format based on the preamble of a LaTeX file
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mylatexformat
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/mylatexformat
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mylatexformat.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mylatexformat.doc.r%{version}.tar.xz
